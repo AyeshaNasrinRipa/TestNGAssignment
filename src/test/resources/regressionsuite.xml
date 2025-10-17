@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Daily Finance Full Assignment Suite">
+
+<!--     1. User registration and email verification -->
+    <test name="User Registration and Email Verification">
+        <classes>
+            <class name="testrunner.SignupTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 2. Reset password negative tests -->
+    <test name="Reset Password Negative Tests">
+        <classes>
+            <class name="testrunner.ResetPasswordTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 3 & 4 . Retrieve Reset Password Link and set new Password -->
+    <test name="Retrieve  Reset Password Link and set new Password">
+        <classes>
+            <class name="testrunner.ResetPasswordFormTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 5. User login with new password -->
+    <test name="User Login with New Password">
+        <classes>
+            <class name="testrunner.UserLoginTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 6. Add 2 items and assert -->
+    <test name="Add Costs Test">
+        <classes>
+            <class name="testrunner.AddCostTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 7 & 8. Update user email and login with new email -->
+    <test name="Update User Email and Login">
+        <classes>
+            <class name="testrunner.UserProfilePageTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 9 & 10. Admin login and search updated Gmail -->
+    <test name="Admin Search Updated User Email">
+        <classes>
+            <class name="testrunner.AdminDashboardTestRunner"/>
+        </classes>
+    </test>
+
+    <!-- 11. Register 3 more users from CSV -->
+    <test name="CSV Registration">
+        <classes>
+            <class name="testrunner.RegistrationTestRunnerCSV"/>
+        </classes>
+    </test>
+
+    <!-- 12. Admin fetch all users and write to text file -->
+    <test name="Fetch All Users as Admin">
+        <classes>
+            <class name="testrunner.AdminFetchUsersTestRunner"/>
+        </classes>
+    </test>
+
+</suite>
