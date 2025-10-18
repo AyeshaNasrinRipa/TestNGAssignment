@@ -14,6 +14,7 @@ import utils.Utils;
 public class SignupTestRunner extends SetUp {
    @Test(priority = 1, description = "User can signup and receive congratulations email")
     public void testUserSignupAndEmail() throws Exception {
+       Thread.sleep(3000);
         driver.findElement(By.partialLinkText("Register")).click();
         SignupPage signupPage = new SignupPage(driver);
 

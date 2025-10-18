@@ -42,5 +42,4 @@ public class SignupPage {
         rbGender.get(1).click();
         chkTerms.click();
         btnRegister.click();
-//        Thread.sleep(4000);
     }}

@@ -39,7 +39,6 @@ public class AddCostPage {
         PageFactory.initElements(driver, this);
     }
 
-    // Add cost with mandatory fields only
     public void addCost(String itemName, String amount) {
         txtItemName.clear();
         txtItemName.sendKeys(itemName);
@@ -76,11 +75,6 @@ public class AddCostPage {
         txtRemarks.sendKeys(remarks);
 
         btnSubmit.click();
-//        try {
-//            Thread.sleep(3000);
-//        } catch (InterruptedException e) {
-//            throw new RuntimeException(e);
-//        }
     }
     public boolean isItemPresent(String itemName) {
         List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
