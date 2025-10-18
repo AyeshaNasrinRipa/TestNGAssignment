@@ -103,8 +103,8 @@ Each of the following automated tasks corresponds to a major project requirement
 
 ---
 
-**Recording of the full automation process:**  
-[Watch Full Automation Process Video](https://youtu.be/acTRZ6uhHOo) 
+### Recording of the full automation process: 
+[![Watch Full Automation Process Video](https://img.youtube.com/vi/acTRZ6uhHOo/0.jpg)](https://youtu.be/acTRZ6uhHOo)
 
 ---
 
@@ -121,4 +121,5 @@ All automated tasks have been converted into **standardized test cases** for doc
 <img width="1366" height="693" alt="image" src="https://github.com/user-attachments/assets/0e3445f6-5c53-4de9-89eb-69c125d48724" />
 
 <img width="1365" height="696" alt="image" src="https://github.com/user-attachments/assets/09b91231-1dbb-4eff-bfa3-aeaba4206eac" />
+
 
